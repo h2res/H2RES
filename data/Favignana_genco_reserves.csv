@@ -1,0 +1,11 @@
+unit_name,cap_mw,fuel_type,decom_start_existing_cap,life_time,decom_start_new,final_life_cap,max_inv_period,cap_factor,st_cost,cost_on,min_load_year,efficiency,cost_no_fuel,cap_inv_cost_USD_MW,RampingCost,CO2Intensity,technology,fuel2,RampUpRate,RampDownRate,Reserve_down,Reserve_up,Stab_factor,CHPType,FCType,STOCapacity,STOSelfDischarge,STOMaxChargingPower,STOChargingEfficiency,CHPPowerToHeat,CHPPowerLossFactor,CHPMaxHeat
+HEZakucac,0,Hydro,15,25,20,1,0,1,0,0,0,0.899311528,0,1000000,0,0,HDAM,WAT,1,0.05,Y,Y,1,N,N,,,,,,,
+Bovis,0,Biomass,15,25,20,0.1,2,1,50,0,0,0.35,0,3400000,0.5,0.123,ICEN,BIO,0.2,0.2,Y,Y,1,N,N,,,,,,,
+HR_WindPP,0,Wind,15,25,20,0.1,2,1,0,0,0,1,0,1100000,0,0,WTON,WIN,1,1,Y,N,0.1,N,N,,,,,,,
+EL-TOZagreb,0,Gas,15,25,20,0.2,2,1,2970,0,0,0.15,0,1200000,0.5,0.398,STUR,GAS,0.6,0.6,Y,Y,1,N,N,,,,,,,
+NEKrskoHR,0,Nuclear,15,25,20,0.1,0,1,17400,0,0,0.57,0,1000000,1.8,0,STUR,NUC,0.25,0.25,Y,Y,1,N,N,,,,,,,
+TEPlomin1,0,Coal,15,25,20,0.1,0,1,4950,0,0,0.4,0,1000000,1.8,1.062,STUR,HRD,0.25,0.25,Y,Y,1,N,N,,,,,,,
+HR_SolarPP,0.2,Solar,15,25,20,0.1,7,1,0,0,0,1,0,600000,0,0,PHOT,SUN,1,1,N,N,1,N,N,,,,,,,
+TERijeka,0.6,Oil,5,25,20,0.1,2,1,31815,0,0,0.38,0,1000000,1.8,0.517,STUR,OIL,0.25,0.25,Y,Y,1,N,N,,,,,,,
+TERijeka,0.6,Oil,15,25,20,0.1,2,1,31815,0,0,0.38,0,1000000,1.8,0.517,STUR,OIL,0.25,0.25,Y,Y,1,N,N,,,,,,,
+CHP_test,0,Gas,15,25,20,1,0,1,31815,0,0,0.38,0,1000000,1.8,0.517,STUR,OIL,0.25,0.25,Y,N,1,Y,N,0,0,0,0,0,0,0
